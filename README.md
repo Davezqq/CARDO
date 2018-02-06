@@ -76,3 +76,18 @@ Relationship between Data Structures
 Todo List
 ---
 * 任务倒计时，在task上显示当前时间距离任务开始还有多长时间
+* 界面的美化
+
+关于bug提交和吐槽
+---
+* 您可以发邮件到136834413@qq.com
+* 您可以folk之后commit并pull request
+我都一定会认真看的！
+
+欢迎讨论（勾搭）
+---
+![](https://github.com/Davezqq/spider/raw/master/IMG_8316.JPG)
+
+另
+---
+本人技术渣，很愿意交流，contributer们的名字都会好好写在最前面的！
