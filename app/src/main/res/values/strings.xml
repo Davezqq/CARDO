@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CARDO</string>
+    <string name="demo_abs">今日共有6项任务</string>
+    <string name="demo_result">剩余3项未完成</string>
+    <string name="time_goal_demo">21:30</string>
+    <string name="task_title_demo">完成作业</string>
+    <string name="task_more_demo">模拟电路，java设计</string>
+    <string name="solved_check">已完成</string>
+    <string name="countdown_demo">剩余15分钟</string>
+    <string name="Text1">事项名称</string>
+    <string name="Text2">事项细节</string>
+    <string name="add_card">添加卡片</string>
+</resources>
