@@ -81,7 +81,7 @@ Todo List
 关于bug提交和吐槽
 ---
 * 您可以发邮件到136834413@qq.com
-* 您可以folk之后commit并pull request
+* 您可以fork之后commit并pull request
 我都一定会认真看的！
 
 欢迎讨论（勾搭）
