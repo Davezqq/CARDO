@@ -25,10 +25,14 @@ public class CardLab {
     private Context mContext;
     private SQLiteDatabase mDatabase;
     public static CardLab get(Context context){
-        if(sCardLab==null){
-            sCardLab= new CardLab(context);
-        }
-        return sCardLab;
+         if(sCardLab == null) {
+             synchronized (CardLab.class) {
+                 if (sCardLab == null) {
+                     sCardLab = new CardLab(context);
+                 }
+             }
+         }
+            return sCardLab;
     }
     private CardLab(Context context){
         mContext = context.getApplicationContext();

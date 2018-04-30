@@ -21,6 +21,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -49,12 +50,21 @@ public class CardListFragment extends Fragment {
     private static final String TAG="CardListFragment";
     private int yyear,mmonth,dday;
     private Calendar mCalendar;
+    private Button processbutton;
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_card_list,container,false);
         mCardRecyclerView = (RecyclerView) view.findViewById(R.id.card_recycler_view);
         mCardRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        processbutton = view.findViewById(R.id.process_button);
         registerForContextMenu(mCardRecyclerView);
+        processbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                 Intent intent = new Intent(getActivity(),ProcessActivity.class);
+                 startActivity(intent);
+            }
+        });
         updatetotal();
         updateUI();
         return view;

@@ -18,7 +18,6 @@ public class TasksetActivity extends AppCompatActivity {
     private static final String EXTRA_TASK_ID="com.zzq.android.task_id";
     private static final String EXTRA_CARD_ID="com.zzq.android.card_id";
     private static final String EXTRA_TASKSLIST_ID="com.zzq.android.taskslist_id";
-    @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

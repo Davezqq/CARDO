@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.RecyclerView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/card_recycler_view"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="461dp" />
+<Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="查看内存占用"
+    android:id="@+id/process_button"
+    />
+</LinearLayout>
